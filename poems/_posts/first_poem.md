@@ -2,7 +2,7 @@
 layout: post
 title: First Poem
 date: 2024-02-18 15:07:00 -0500
-categories: ideas
+categories: poems
 ---
 
 І один у полі воїн,
