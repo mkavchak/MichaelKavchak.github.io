@@ -1,0 +1,16 @@
+---
+layout: default
+title: Ideas
+permalink: /ideas/
+categories: ideas
+---
+
+# Ideas:
+{% for post in site.categories.ideas %}
+<h2 style="text-align: center;">***</h2>
+## {{ post.title }}
+{{ post.date | date: "%B %d, %Y" }}
+
+{{ post.content }}
+<h2 style="text-align: center;">**</h2>
+{% endfor %}
