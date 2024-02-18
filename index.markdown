@@ -5,3 +5,6 @@
 layout: home
 ---
 
+<script>
+  window.location.href = "/poems";
+</script>
