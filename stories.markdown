@@ -6,7 +6,7 @@ permalink: /stories/
 categories: stories
 ---
 
-# Stories:
+<h2 style="text-align: center;">Stories</h2>
 {% for post in site.categories.stories %}
   <h2 style="text-align: center;">***</h2>
   {{ post.content }}

@@ -6,7 +6,7 @@ permalink: /ideas/
 categories: ideas
 ---
 
-# Ideas:
+<h2 style="text-align: center;">Ideas</h2>
 {% for post in site.categories.ideas %}
   <h2 style="text-align: center;">***</h2>
   {{ post.content }}

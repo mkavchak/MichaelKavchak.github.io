@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper" style="text-align: center;">
     {%- assign sorted_pages = site.pages | sort: "weight" -%}
     {%- assign default_paths = sorted_pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
