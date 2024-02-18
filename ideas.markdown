@@ -1,5 +1,6 @@
 ---
 layout: default
+weight: 2
 title: Ideas
 permalink: /ideas/
 categories: ideas

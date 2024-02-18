@@ -1,5 +1,6 @@
 ---
 layout: default
+weight: 3
 title: Stories
 permalink: /stories/
 categories: stories

@@ -1,5 +1,6 @@
 ---
 layout: default
+weight: 1
 title: Poems
 permalink: /poems/
 categories: poems
