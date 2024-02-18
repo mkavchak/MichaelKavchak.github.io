@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Poems"
+title: Poems
 permalink: /poems/
 categories: poems
 ---
