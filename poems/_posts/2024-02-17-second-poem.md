@@ -3,6 +3,7 @@ layout: post
 title:  Poem 2
 date:   2024-02-17 21:21:22 -0500
 categories: delete
+stars: 2
 ---
 
 В тиші лісів, де шепіт вітрів гуляє,

@@ -3,6 +3,7 @@ layout: post
 title: Iodyn
 date: 2024-02-18 15:07:00 -0500
 categories: poems
+stars: 2
 ---
 
 І один у полі воїн,\
