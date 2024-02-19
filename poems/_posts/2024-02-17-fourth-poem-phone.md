@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Vtyc
-date:   2024-02-17 21:21:22 -0500-Vtyc.md
+date:   2024-02-17 21:21:22 -0500
 categories: delete
 ---
 
