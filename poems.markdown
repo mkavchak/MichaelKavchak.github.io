@@ -10,11 +10,11 @@ categories: poems
 {%- for post in site.categories.poems -%}
   {{ post.content }}
 
-    {% if post.stars %}
+  {%- if post.stars -%}
     <h2 style="text-align: center;">
       {% for star in (1..post.stars) %}
         *
       {% endfor %}
     </h2>
-  {% endif %}
+  {%- endif -%}
 {%- endfor -%}

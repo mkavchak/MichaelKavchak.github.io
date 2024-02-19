@@ -6,15 +6,15 @@ permalink: /ideas/
 categories: ideas
 ---
 
-<h2 style="text-align: center;">Poems</h2>
+<h2 style="text-align: center;">Ideas</h2>
 {%- for post in site.categories.ideas -%}
   {{ post.content }}
 
-  {% if post.stars %}
+  {%- if post.stars -%}
     <h2 style="text-align: center;">
       {% for star in (1..post.stars) %}
         *
       {% endfor %}
     </h2>
-  {% endif %}
+  {%- endif -%}
 {%- endfor -%}
