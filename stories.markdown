@@ -8,6 +8,9 @@ categories: stories
 
 <h2 style="text-align: center;">Stories</h2>
 {%- for post in site.categories.stories -%}
+  {% if post.categories contains 'delete' %}
+    {%- continue -%}
+  {% endif %}
   {{ post.content }}
 
   {%- if post.stars -%}
