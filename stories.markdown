@@ -11,8 +11,6 @@ categories: stories
   {% if post.categories contains 'delete' %}
     {%- continue -%}
   {% endif %}
-  {{ post.content }}
-
   {%- if post.stars -%}
     <h2 style="text-align: center;">
       {% for star in (1..post.stars) %}
@@ -20,4 +18,5 @@ categories: stories
       {% endfor %}
     </h2>
   {%- endif -%}
+  {{ post.content }}
 {%- endfor -%}

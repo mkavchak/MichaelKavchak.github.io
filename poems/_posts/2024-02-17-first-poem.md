@@ -2,7 +2,8 @@
 layout: post
 title:  XVyso
 date:   2024-02-18 19:54:22 -0500
-categories: delete 
+categories: delete
+stars: 3
 ---
 
 Високі гори, мов стражі давнини,

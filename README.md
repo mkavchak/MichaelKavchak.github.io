@@ -13,7 +13,7 @@ layout: post
 title:  Poem 1
 date:   2024-02-17 21:21:22 -0500
 categories: poems
-stars: 2
+stars: 3
 ---
 
 First Paragraph\
@@ -42,7 +42,7 @@ layout: post
 title:  Idea 1
 date:   2024-02-17 21:21:22 -0500
 categories: ideas
-stars: 2
+stars: 3
 ---
 
 First Paragraph\
@@ -71,7 +71,7 @@ layout: post
 title:  Story 1
 date:   2024-02-17 21:21:22 -0500
 categories: stories
-stars: 2
+stars: 3
 ---
 
 First Paragraph\
