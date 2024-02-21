@@ -1,10 +1,20 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
 
-<script>
-  window.location.href = "/poems";
-</script>
+<h2 style="text-align: center;">Poems</h2>
+{%- for post in site.categories.poems -%}
+  {% if post.categories contains 'delete' %}
+    {%- continue -%}
+  {% endif %}
+  <div class="post-data">
+    {%- if post.stars -%}
+      <h2 class="stars-field">
+        {% for star in (1..post.stars) %}
+          *
+        {% endfor %}
+      </h2>
+    {%- endif -%}
+    {{ post.content }}
+  </div>
+{%- endfor -%}
