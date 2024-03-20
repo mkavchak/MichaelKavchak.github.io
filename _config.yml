@@ -23,8 +23,8 @@ author: Michael Kavchak
 email: MKavchak@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog outlining poems, ideas, and stories
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://michaelkavchak.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://michaelkavchak.com' # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 permalink: pretty
@@ -35,7 +35,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
